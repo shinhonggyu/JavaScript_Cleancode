@@ -1,4 +1,4 @@
-// 코딩앙마
+// 코딩앙마❗
 // 생성자 함수
 const User = function (name, age) {
   this.name = name;
@@ -79,7 +79,7 @@ z4.stop(); // STOP! OFF
 
 // -------------------------------------------------------
 
-// case2 드림코딩
+// case2 드림코딩❗
 // Inheritance
 // a way for one class to extend another class.
 
@@ -158,5 +158,23 @@ class Article {
 
   printPublisher() {
     console.log(this.publisher);
+  }
+}
+
+// 벨로퍼트❗
+
+class Food {
+  constructor(name) {
+    this.name = name;
+    this.brands = [];
+  }
+
+  addBrand(brand) {
+    this.brands.push(brand);
+  }
+
+  print() {
+    console.log(`${this.name}을/를 파는 음식점들:`);
+    console.log(this.brands.join(", "));
   }
 }
